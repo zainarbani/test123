@@ -1,5 +1,7 @@
 FROM debian:buster-slim
 
+LABEL org.opencontainers.image.source https:///github.com/zainarbani/test123
+
 ENV DEBIAN_FRONTEND=noninteractive \
 	LANG=C.UTF-8 \
 	PATH=/usr/local/bin:$PATH
